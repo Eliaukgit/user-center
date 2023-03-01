@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://43.143.183.195:3306/user_center?serverTimezone=UTC
+    username: root
+    password: Mysql.123
+  session:
+    timeout: 86400 #一天失效
+server:
+  address: 0.0.0.0
